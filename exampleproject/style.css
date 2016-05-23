@@ -1,0 +1,115 @@
+@charset "utf-8";
+html {
+	height: 100%;
+	background: url("Pictures/back.png");
+}
+.header {
+	width: 100%;
+	height: auto;
+	background-color: #eef3f5;
+	padding-top: 24px;
+}
+.headerContent {
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+.headerContent a img {
+	width: 400px;
+	height: 144px;
+	margin: 0px auto;
+	display: block;
+} 
+.headerBreak {
+	width: 1500px;;
+	height: 0;
+	border-bottom: 6px solid lightpink;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+#nav {
+    background-color: rgb(255, 29, 120);
+	margin-left: 166px;
+	margin-right: 166px;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav_right {
+	text-align: right;
+	
+	float: right;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: rgb(176, 51, 124);
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 29, 120);
+    border: 5px solid rgb(255, 29, 120);
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: black;
+}
+.main {
+	width: 600px;
+	height: 400px;
+	float:left;
+	margin-bottom: 20px;
+}
+.main1 {
+	width: 400px;
+	height: 400px;
+	float:left;
+	margin-bottom: 20px;
+}
+
+
+.dop {
+	display: inline-block;
+	margin-top: 70px;
+	margin-left: 170px;
+	height:50px;
+	width:1000px;
+}
+.footer-social-cont{
+	display: inline-block;
+	float:right;
+	padding-left: 17px;
+	margin-left: 0;
+	text-decoration: none;
+	display: inline-block;
+}
